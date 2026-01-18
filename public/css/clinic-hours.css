@@ -1,0 +1,178 @@
+/* Clean Clinic Hours Styling */
+
+/* ============================================
+   LINK DISABLE SWITCH
+   ============================================
+   To DISABLE all links on homepage: Keep this section uncommented (as is)
+   To ENABLE all links on homepage: Comment out or delete the section below
+   ============================================ */
+
+a {
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+/* ============================================
+   END LINK DISABLE SWITCH
+   ============================================ */
+
+/* Hero Section - Clean Modern Style */
+.banner-section .banner-left {
+    text-align: center !important;
+    padding: 100px 0 100px 50px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.banner-section .banner-left::before {
+    display: none !important;
+}
+
+.banner-left h3 {
+    display: block !important;
+    text-align: left !important;
+    font-size: 72px !important;
+    line-height: 1.15 !important;
+    margin: 0 0 28px 0 !important;
+    letter-spacing: -1px !important;
+    font-weight: 700 !important;
+    color: #5a5a5a !important;
+    text-transform: none !important;
+    font-family: 'Montserrat', sans-serif !important;
+    width: auto !important;
+}
+
+.banner-left h3::after {
+    display: none !important;
+}
+
+.banner-left p {
+    display: block !important;
+    font-size: 20px !important;
+    line-height: 1.6 !important;
+    color: #555 !important;
+    font-weight: 400 !important;
+    margin: 0 0 40px 0 !important;
+    padding: 0 !important;
+    max-width: 480px !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+
+.banner-left a {
+    margin: 0 0 0 100px !important;
+    display: inline-block !important;
+    align-self: flex-start !important;
+}
+
+.clinic-hours-clean .hours-grid {
+    margin-top: 20px;
+}
+
+.clinic-hours-clean .hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.clinic-hours-clean .hours-row:last-child {
+    border-bottom: none;
+}
+
+.opening-hours .clinic-hours-clean .day {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f89d1 !important;
+    letter-spacing: 0.5px;
+}
+
+.opening-hours .clinic-hours-clean .time {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0f89d1 !important;
+    text-align: right;
+    line-height: 1.4;
+}
+
+/* Hide the old ul style if it exists */
+.clinic-hours-clean ul {
+    display: none;
+}
+
+/* Footer Hours Styling */
+.footer-hours-clean .hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-hours-clean .hours-row:last-child {
+    border-bottom: none;
+}
+
+.footer-hours-clean .day {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
+
+.footer-hours-clean .time {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: right;
+    line-height: 1.4;
+}
+
+/* Footer Services Grid Styling */
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 20px;
+    margin-top: 20px;
+}
+
+.services-grid .service-item {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 8px 0;
+    position: relative;
+    padding-left: 12px;
+    line-height: 1.4;
+}
+
+.services-grid .service-item:before {
+    content: "›";
+    position: absolute;
+    left: 0;
+    color: #0f89d1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hide old ul list styling */
+.widget-links ul {
+    display: none;
+}
+
+/* Footer Insurance Logo Styling */
+.insurance-logo-container {
+    margin: 15px 0;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.insurance-logo {
+    max-width: 70px;
+    height: auto;
+    opacity: 0.9;
+}
